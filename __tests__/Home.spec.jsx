@@ -4,7 +4,7 @@ import { createDynamicRouteParser } from "next-router-mock/dynamic-routes";
 import "@testing-library/jest-dom/extend-expect";
 
 // Component
-import Home from "../pages";
+import Home from "../src/pages";
 
 // Mock Router
 jest.mock("next/router", () => require("next-router-mock"));
